@@ -1,0 +1,171 @@
+/*Área para Estilos Externos EF*/
+
+*{
+    box-sizing: border-box; 
+	margin: 0;
+    padding: 0;
+}
+body{
+	
+	font-family: "Open Sans", sans-serif;  	
+  	font-weight: 400;
+  	font-style: normal;  
+	
+}
+.contenedor {
+	width: 1200px;
+	margin: auto;
+	padding: 20px;
+}
+header {
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	
+}
+
+.logo {
+	color: white;
+	margin: 20px;
+	padding: 5px;
+}
+
+/*Barra de navegacion*/
+.menu {
+	list-style: none;
+}
+.menu li {
+	display: inline-block;
+	
+}
+.menu li a {
+	text-decoration:none;
+	color: white;
+	padding: 5px 10px;
+	font-size: 15px;
+}
+.menu li a:hover {
+	color: blue;
+	background-color: white;
+}
+.banner {
+	position: relative;
+	display: inline-block;
+	
+	
+}
+.banner img {
+	width: 100%;
+	height: auto;
+}
+.banner-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white; /* Cambia el color del texto según el fondo */
+}
+h1 {
+	font-size: 2.5em;
+}
+h2 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+  
+p {
+	font-size: 1.2em;
+}
+/* zona del main */
+main {
+	display: flex;
+	margin-top: -10px;
+	
+}
+aside {
+
+	text-align: center;
+}
+
+.left {
+	background-color: red;
+	width: 20%;
+	
+}
+.menuLateral {
+	list-style: none;
+	
+}
+.menuLateral li {
+	display: block;
+	margin: 35px;
+}
+.menuLateral li a {
+	text-decoration:none;
+	color: white;
+	padding: 5px 10px;
+	font-size: 15px;
+}
+.menuLateral li a:hover {
+	text-decoration: underline;
+}
+/* Zona Section*/
+section {
+	width: 60%;
+	background: white;
+	padding: 40px;
+	
+	
+}
+.cajaImagenes {
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+	
+}
+.itemImagen {
+	margin: 5px;
+	width: 80%;
+}
+
+/* zona aside*/
+.right {
+	background-color: green;
+	width: 20%;
+	padding: 20px;
+	
+}
+
+/* Seccion Video*/
+.video{
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative
+}
+.video iframe, .video object, .video embed{
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+/* zona footer*/
+footer {
+	background-color: black;
+	width: 100%;
+	margin: auto;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+
